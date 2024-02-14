@@ -7,11 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       screens: {
         "2xsm": "360px",
         xsm: "480px",
@@ -48,9 +43,6 @@ module.exports = {
         lightBorder: "#ddd",
         blackLight: "#111",
         darkThemeBg: "#202124",
-      },
-      fontFamily: {
-        default: "'poppins', sans-serif",
       },
       borderRadius: {
         default: "5px",
